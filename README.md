@@ -1,6 +1,6 @@
-# php-crud-tvshow
+# crud-tvshow
 
-### Par STRACK Ruben (stra0011) & LEVIS Lohan (levi0009)
+### Par STRACK Ruben
 
 Lancer le serveur:
 
