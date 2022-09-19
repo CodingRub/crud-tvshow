@@ -1,0 +1,28 @@
+{
+    "name": "stra0011/php-crud-tvshow",
+    "description": "Développement d'une application Web de consultation et modification de séries TV",
+    "type": "project",
+    "license": "Copyleft",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruben Strack",
+            "email": "ruben.strack@etudiant.univ-reims.fr"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.8"
+    },
+    "scripts": {
+        "run-server": "APP_DIR=\"$PWD\" php -d display_errors -S localhost:8000 -t public/ -d auto_prepend_file=\"$PWD/vendor/autoload.php\"",
+        "test:cs": "php vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "fix:cs": "php vendor/bin/php-cs-fixer fix --dry-run --diff"
+    }
+}
